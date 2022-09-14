@@ -4,7 +4,7 @@ const chatBox = document.getElementById("chat-box");
 const username = document.getElementById("username");
 const theme = document.getElementById("theme");
 const message = document.getElementById("message");
-let groupe = "null";
+let groupe = null;
 form.onsubmit = (e) => {
     e.preventDefault();
     for (let index = 0; index < access.length; index++) {
