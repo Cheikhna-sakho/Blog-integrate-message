@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="container grid-row">
+        <div id="chat-box" class="grid-row">
+    
+        </div>
+        <div class="form">
+            <h2>Ajouter un commentaire</h2>
+            <form action="" id="msg-form">
+                <div class="info">
+                    <label for="username">Nom d'utilisateur</label>
+                    <input type="text" name="username" id="username" required>
+                    <label for="theme">Theme</label>
+                    <select name="theme" id="theme">
+                        <option value="Activité Physique">
+                            Activité Physique
+                        </option>
+                        <option value="Nutrition">
+                            Nutrition
+                        </option>
+                        <option value="Hygiène de vie">
+                            Hygiène de vie
+                        </option>
+                    </select>
+                    <label for="public">Public</label>
+                    <input type="radio" name="access" id="public" required>
+                    <label for="private">Private</label>
+                    <input type="radio" name="access" id="private">
+                </div>
+                <div class="message">
+                    <p>
+                        <label for="message">Message</label>
+                        <br>
+                        <input type="text" name="message" id="message" required>
+                    </p>
+                </div>
+                <input type="submit" value="Valider">
+            </form>
+        </div>
+    </div>
+    <script src="./script.js"></script>
+</body>
+
+</html>

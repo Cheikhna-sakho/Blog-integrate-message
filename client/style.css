@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+}
+label{
+    font-size: 1.2em;
+}
+.grid-col{
+    display: grid;
+    grid-auto-flow: column;
+}
+.grid-row{
+    display: grid;
+    grid-auto-flow: row;
+}
+.grid{
+    display: grid;
+}
+.public{
+    background: grey;
+}
+.private{
+    background: rosybrown;
+}
+.center{
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.container{
+    align-items: center;
+    justify-content: center;
+    
+}
+#chat-box{
+    gap: 10px;
+}
+#message{
+    width: 100%;
+    padding: 5px;
+}
